@@ -2262,7 +2262,6 @@ p {
 .flip-card {
     width: 420px;
     height: 270px;
-    border: 2px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -2302,4 +2301,12 @@ p {
     color: white;
     backface-visibility: hidden;
     transform: rotateY(180deg);
+}
+
+.card {
+    border:none;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-bottom: 25px;
 }
