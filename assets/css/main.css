@@ -1766,14 +1766,6 @@ p {
 
 @media (max-width: 767px) {
     .single-team {
-        max-width: 270px;
-        margin-left: auto;
-        margin-right: auto
-    }
-}
-
-@media (max-width: 767px) {
-    .single-team {
         text-align: center
     }
 }
@@ -2092,7 +2084,7 @@ p {
 }
 
 @media (max-width: 767px) {
-    .subscribe-section .subscribe-wrapper {
+    .subscribe-section .subscribe-wrapper p {
         padding-left: 30px;
         padding-right: 30px
     }
