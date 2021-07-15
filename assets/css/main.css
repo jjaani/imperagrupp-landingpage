@@ -2250,8 +2250,6 @@ p {
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
-    width: 420px;
-    height: 270px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -2299,4 +2297,10 @@ p {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     margin-bottom: 25px;
+}
+.flip-card-back ul li {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 30px;
+    color: black;
 }
