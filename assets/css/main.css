@@ -2128,6 +2128,12 @@ p {
     justify-content: center;
     align-items: center
 }
+.footer-logo-section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .subscribe-section .subscribe-wrapper .subscribe-form {
