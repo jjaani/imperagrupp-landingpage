@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="129" height="177" viewBox="0 0 129 177">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 38.462px;
+        text-anchor: end;
+        font-family: BravoRG;
+      }
+
+      .cls-1, .cls-2 {
+        mix-blend-mode: difference;
+        fill: #f2f2f2;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <text id="Impera_Grupp" data-name="Impera Grupp" class="cls-1" transform="translate(144.889 46.637) scale(3.471 3.467)"><tspan x="0">Impera Grupp</tspan></text>
+  <path d="M5,0H98a31,31,0,0,1,31,31V172a5,5,0,0,1-5,5H31A31,31,0,0,1,0,146V5A5,5,0,0,1,5,0Z"/>
+  <path id="IG" class="cls-2" d="M58.587,30.809V17.385H21.93V30.809H33.538V146.334H21.93v13.424H58.587V146.334H46.979V30.809H58.587Zm37.47,21.559H109.5V36.5A19.109,19.109,0,0,0,90.355,17.385H81.6A19.375,19.375,0,0,0,62.455,36.5V140.639A19.109,19.109,0,0,0,81.6,159.758h8.757A19.11,19.11,0,0,0,109.5,140.639V89.181H87.3v12.407h8.757v39.051a5.689,5.689,0,0,1-5.7,5.695H81.6a5.689,5.689,0,0,1-5.7-5.695V36.5a5.824,5.824,0,0,1,5.7-5.695h8.757a5.689,5.689,0,0,1,5.7,5.695V52.368Z"/>
+</svg>
