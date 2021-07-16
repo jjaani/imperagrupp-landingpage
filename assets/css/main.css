@@ -1115,6 +1115,7 @@ p {
     padding: 16px 30px;
     background: rgba(255, 255, 255, 0.08);
     border-radius: 10px;
+    box-shadow: 8px 8px 5px rgba(102, 77, 66, 0.26);
 }
 
 .navbar-brand {
@@ -1216,6 +1217,7 @@ p {
     color: #fff;
     transition: all 0.3s ease-out 0s;
     position: relative;
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
