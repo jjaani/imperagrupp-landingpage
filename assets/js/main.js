@@ -41,16 +41,9 @@ function onScroll(event) {
             currLink.classList.remove('active');
         }
     }
-};window.document.addEventListener('scroll', onScroll);
-let navbarToggler = document.querySelector(".navbar-toggler");
-var navbarCollapse = document.querySelector(".navbar-collapse");
-document.querySelectorAll(".page-scroll").forEach(e => e.addEventListener("click", () => {
-    navbarToggler.classList.remove("active");
-    navbarCollapse.classList.remove('show')
-}));
-navbarToggler.addEventListener('click', function () {
-    navbarToggler.classList.toggle("active");
-});
+};
+window.document.addEventListener('scroll', onScroll);
+
 var cu = new counterUp({start: 0, duration: 2000, intvalues: true, interval: 100, append: 'K'});
 cu.start();
 
