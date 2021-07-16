@@ -26,6 +26,8 @@ window.onscroll = function () {
     }
 };
 
+
+
 function onScroll(event) {
     var sections = document.querySelectorAll('.page-scroll');
     var scrollPos = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
@@ -43,6 +45,20 @@ function onScroll(event) {
     }
 };
 window.document.addEventListener('scroll', onScroll);
+
+//===== close navbar-collapse when a  clicked
+let navbarToggler = document.querySelector(".navbar-toggler");
+var navbarCollapse = document.querySelector(".navbar-collapse");
+
+document.querySelectorAll(".page-scroll").forEach(e =>
+    e.addEventListener("click", () => {
+        navbarToggler.classList.remove("active");
+        navbarCollapse.classList.remove('show')
+    })
+);
+navbarToggler.addEventListener('click', function () {
+    navbarToggler.classList.toggle("active");
+});
 
 var cu = new counterUp({start: 0, duration: 2000, intvalues: true, interval: 100, append: 'K'});
 cu.start();
