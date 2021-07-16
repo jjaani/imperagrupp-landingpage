@@ -1414,9 +1414,9 @@ p {
     z-index: 1
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .hero-section .hero-img img {
-        width: 100%
+        display: none;
     }
 }
 
