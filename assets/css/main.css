@@ -2208,6 +2208,7 @@ p {
 /* Style the back side */
 .flip-card-back {
     color: white;
+    background: linear-gradient(#ffffff 0%, #FF7600 80%);
     backface-visibility: hidden;
     transform: rotateY(180deg);
 }
