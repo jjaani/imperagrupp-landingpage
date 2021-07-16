@@ -2235,3 +2235,8 @@ p {
     color: #313450;
     font-weight: bold;
 }
+
+.kontaktandmed_btn {
+    padding-left: 25px;
+    padding-right: 25px;
+}
