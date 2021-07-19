@@ -1797,6 +1797,15 @@ p {
     border-radius: 0 0 10px 10px
 }
 
+@media only screen and (max-width: 1400px) {
+    .single-team .team-img .team-social-links {
+        opacity: 1;
+        visibility: visible;
+        color: white;
+        height: 45px
+    }
+}
+
 .single-team .team-img .team-social-links ul li {
     display: inline-block
 }
@@ -2045,6 +2054,7 @@ p {
     justify-content: center;
     align-items: center
 }
+
 .footer-logo-section {
     text-align: center;
     display: flex;
@@ -2216,7 +2226,7 @@ p {
 }
 
 .card {
-    border:none;
+    border: none;
     text-align: center;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -2224,13 +2234,15 @@ p {
     max-width: 420px;
     box-shadow: 8px 8px 15px #cdcccc;
 }
+
 .flip-card-back ul li {
     text-align: center;
     padding-top: 10px;
     padding-left: 30px;
     color: black;
 }
-.flip-card-back h4  {
+
+.flip-card-back h4 {
     text-align: center;
     padding-top: 10px;
     padding-left: 30px;
