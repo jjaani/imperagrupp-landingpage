@@ -13,10 +13,10 @@ window.onscroll = function () {
     var logo = document.querySelector('.navbar-brand img')
     if (window.pageYOffset > sticky) {
         header_navbar.classList.add("sticky");
-        logo.src = 'assets/img/logo/Rebanevektor_300.png';
+        logo.src = 'assets/img/logo/Rebanevektor_50.png';
     } else {
         header_navbar.classList.remove("sticky");
-        logo.src = 'assets/img/logo/Rebanevektor_300.png';
+        logo.src = 'assets/img/logo/Rebanevektor_50.png';
     }
     var backToTo = document.querySelector(".scroll-top");
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
