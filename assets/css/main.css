@@ -26,7 +26,7 @@ a:focus, input:focus, textarea:focus, button:focus, .btn:focus, .btn.focus, .btn
 
 a:hover {
     transition: all .3s ease-out 0s;
-    color: #FF7600
+    color: #ff4400
 }
 
 a, a:focus, a:hover {
@@ -114,7 +114,7 @@ p {
 }
 
 .theme-color {
-    color: #FF7600
+    color: #ff4400
 }
 
 .error {
@@ -157,7 +157,7 @@ p {
 }
 
 .gradient-3 {
-    background-image: linear-gradient(#FF7600 0%, #ffb8d1 100%)
+    background-image: linear-gradient(#ff4400 0%, #ffb8d1 100%)
 }
 
 .gradient-4 {
@@ -167,7 +167,7 @@ p {
 .scroll-top {
     width: 45px;
     height: 45px;
-    background: #FF7600;
+    background: #ff4400;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,7 +203,7 @@ p {
     font-size: 25px;
     font-weight: 600;
     display: block;
-    color: #FF7600;
+    color: #ff4400;
     margin-bottom: 12px
 }
 
@@ -277,7 +277,7 @@ p {
     width: 200%;
     height: 100%;
     border-style: solid;
-    border-color: #FF7600 #FF7600 #ddd;
+    border-color: #ff4400 #ff4400 #ddd;
     border-radius: 50%;
     border-width: 6px
 }
@@ -1237,7 +1237,7 @@ p {
 }
 
 .navbar-nav .nav-item a.active, .navbar-nav .nav-item a:hover {
-    color: #FF7600
+    color: #ff4400
 }
 
 .navbar-nav .nav-item:hover .sub-menu {
@@ -1304,7 +1304,7 @@ p {
 
 .navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
     padding-left: 25px;
-    color: #FF7600;
+    color: #ff4400;
 }
 
 .navbar-nav .sub-nav-toggler {
@@ -1573,7 +1573,7 @@ p {
 .faq-item .faq-header .faq-btn::after {
     content: '';
     position: absolute;
-    border-top: 6px solid #FF7600;
+    border-top: 6px solid #ff4400;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     right: 25px;
@@ -1788,7 +1788,7 @@ p {
     width: 100%;
     height: 0;
     display: flex;
-    background: #FF7600;
+    background: #ff4400;
     justify-content: center;
     align-items: center;
     opacity: 0;
@@ -1879,7 +1879,7 @@ p {
 
 .testimonial-section .single-testimonial .testimonial-info-wrapper .rating {
     padding-right: 40px;
-    color: #FF7600
+    color: #ff4400
 }
 
 .testimonial-section .single-testimonial .testimonial-info-wrapper .rating i {
@@ -1921,7 +1921,7 @@ p {
 }
 
 .testimonial-section .testimonial-active-wrapper .tns-nav button.tns-nav-active {
-    background: #FF7600
+    background: #ff4400
 }
 
 .faq-section {
@@ -2002,7 +2002,7 @@ p {
 
 .subscribe-section .subscribe-wrapper {
     border-radius: 30px;
-    background: linear-gradient(to right bottom, #f87901 40%, #ff0008 100%);
+    background: linear-gradient(to right bottom, #ff1500 10%, #ff4d00 40%);
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -2101,7 +2101,7 @@ p {
 }
 
 .subscribe-section .subscribe-wrapper .subscribe-form button {
-    color: #FF7600;
+    color: #ff4400;
     margin-bottom: 20px
 }
 
@@ -2149,7 +2149,7 @@ p {
 
 .footer .footer-links .footer-social-links ul li a:hover {
     color: #fff;
-    background: #FF7600
+    background: #ff4400
 }
 
 .footer .footer-links .footer-menu {
@@ -2170,7 +2170,7 @@ p {
 }
 
 .footer .footer-links .footer-menu ul li a:hover {
-    color: #FF7600
+    color: #ff4400
 }
 
 .footer .copyright-area {
@@ -2184,6 +2184,7 @@ p {
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    object-fit: cover;
 }
 
 /* This container is needed to position the front and back side */
@@ -2220,7 +2221,7 @@ p {
 /* Style the back side */
 .flip-card-back {
     color: white;
-    background: linear-gradient(#ffffff 0%, #FF7600 80%);
+    background: linear-gradient(#ffffff 0%, #ff4400 80%);
     backface-visibility: hidden;
     transform: rotateY(180deg);
 }
@@ -2228,6 +2229,7 @@ p {
 .card {
     border: none;
     text-align: center;
+    align-content: center;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     margin-bottom: 25px;
@@ -2236,14 +2238,14 @@ p {
 }
 
 .flip-card-back ul li {
-    text-align: center;
+    text-align: left;
     padding-top: 10px;
     padding-left: 30px;
     color: black;
 }
 
 .flip-card-back h4 {
-    text-align: center;
+    text-align: left;
     padding-top: 10px;
     padding-left: 30px;
     color: #313450;
